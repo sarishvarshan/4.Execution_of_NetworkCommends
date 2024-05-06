@@ -31,6 +31,7 @@ This commands includes
 
 ## Program
 ### CLIENT
+```
 import socket 
 from pythonping import ping
 s = socket.socket()
@@ -53,7 +54,9 @@ while True:
         print("Error:", e)
     finally:
         c.close()
+```
 ### SERVER
+```
 import socket
 s = socket.socket()
 s.connect(('localhost', 8000))
@@ -70,11 +73,14 @@ except Exception as e:
     print("Error:", e)
 finally:
     s.close()
+```
 ### Trace Route Command
+```
 from scapy.all import *
 target = ["www.google.com"]
 result, unans = traceroute(target,maxttl=32)
 print(result,unans)
+```
 ## Output
 ### PING COMMAND
 ### CLIENT
