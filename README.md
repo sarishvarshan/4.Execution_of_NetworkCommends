@@ -6,7 +6,7 @@ Use of Network commands in Real Time environment
 ## Software 
 Command Prompt And Network Protocol Analyzer
 ## Procedure
-To do this EXPERIMENT- follows these steps:
+## To do this EXPERIMENT- follows these steps:
 <BR>
 In this EXPERIMENT- students have to understand basic networking commands e.g cpdump, netstat, ifconfig, nslookup ,traceroute and also Capture ping and traceroute PDUs using a network protocol analyzer 
 <BR>
