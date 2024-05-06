@@ -32,6 +32,7 @@ This commands includes
 <BR>
 
 ## Program
+### PING COMMAND
 ### CLIENT
 ```
 import socket 
